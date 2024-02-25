@@ -16,7 +16,21 @@
     height: 640px;
     width: 425px;
     border-radius: 30px;
-    background-color: #d0c7c7;
+    background-color: #f1eded;
+    box-shadow: 20px 20px 60px #bebebe,
+    -20px -20 px, 60px #ffffff;
+}
+
+.result{
+    font-size: 2rem;
+    width: 405px;
+    height: 90px;
+    scrollbar-width: none;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    background: white;
     box-shadow: 20px 20px 60px #bebebe,
     -20px -20 px, 60px #ffffff;
 }

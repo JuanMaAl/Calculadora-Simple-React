@@ -36,12 +36,17 @@
 }
 
 .resbox{
-    width:390px;
+    width:380px;
     height: min-content;
     overflow-y: auto;
     padding-left: 10px;
     padding-right: 10px;
     text-align: right;
+    padding-top: 18px;
+}
+
+.resbox::-webkit-scrollbar{
+    display: none;
 }
 
 .btns{
